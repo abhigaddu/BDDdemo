@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login to Application",
+        "description": "",
+        "id": "login-to-the-application;login-to-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4696533827,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the application url google.com",
+            "match": {
+              "location": "LoginStep.User_Enters_Application_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3609803193,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters google in search bar",
+            "match": {
+              "location": "LoginStep.User_enters_google()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 167458833,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User will be able to see google text",
+            "match": {
+              "location": "LoginStep.User_validates_text()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to the Application",
+    "description": "",
+    "id": "login-to-the-application",
+    "keyword": "Feature",
+    "uri": "src/main/java/Feature/login.feature"
+  }
+]

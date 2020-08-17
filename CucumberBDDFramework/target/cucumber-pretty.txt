@@ -1,0 +1,6 @@
+Feature: Login to the Application
+
+  Scenario: Login to Application              [90m# src/main/java/Feature/login.feature:3[0m
+    [32mGiven [0m[32mthe application url google.com[0m      [90m# LoginStep.User_Enters_Application_Url()[0m
+    [32mWhen [0m[32mUser enters google in search bar[0m     [90m# LoginStep.User_enters_google()[0m
+    [32mThen [0m[32mUser will be able to see google text[0m [90m# LoginStep.User_validates_text()[0m
