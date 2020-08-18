@@ -33,21 +33,21 @@ formatter.match({
   "location": "LoginStep.User_Enters_Application_Url()"
 });
 formatter.result({
-  "duration": 4696533827,
+  "duration": 4650585800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.User_enters_google()"
 });
 formatter.result({
-  "duration": 3609803193,
+  "duration": 2511379100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.User_validates_text()"
 });
 formatter.result({
-  "duration": 167458833,
+  "duration": 1624440500,
   "status": "passed"
 });
 });

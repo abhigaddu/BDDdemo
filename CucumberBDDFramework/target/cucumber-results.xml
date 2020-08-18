@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.473796">
-<testcase classname="Login to the Application" name="Login to Application" time="8.473796">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.786405">
+<testcase classname="Login to the Application" name="Login to Application" time="8.786405">
 <system-out><![CDATA[Given the application url google.com........................................passed
 When User enters google in search bar.......................................passed
 Then User will be able to see google text...................................passed
